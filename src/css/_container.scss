@@ -1,0 +1,21 @@
+@media screen and (min-width:1200px){
+    .container{
+        width: 1360px;
+        max-width: calc(100% - 40px);
+        margin: auto;
+    }
+
+    .grid-half{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media screen and (max-width:768px){
+    .container{
+        width: 100%;
+        max-width: 360px;
+        margin: auto;
+    }
+}

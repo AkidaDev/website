@@ -1,0 +1,40 @@
+.button{
+    border-radius: 50px;
+    padding: 20px 50px;
+    margin: 0 10px;
+    font-weight: bold;
+}
+.button-primary{
+    border: 2px solid #915BFF;
+    background-color: #915BFF;
+    color: ghostwhite;
+    box-shadow: 0px 5px 18px #915bffb3;
+}
+
+.button-primary:hover,
+.button-default:hover{
+    transition: all 1s ease-in-out;
+    border: 2px solid #7943E6;
+    text-decoration: underline;
+}
+
+
+.button-default{
+    border: 2px solid #915bffb3;
+    color: #915bffb3;
+}
+
+.button-article{
+    padding: 10px 20px;
+    background-color: #f0eafd;
+    color: #915bff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media screen and (max-width:768px){
+    .button{
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+}

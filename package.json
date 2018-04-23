@@ -1,0 +1,24 @@
+{
+  "name": "alkida",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "concurrently \"grunt\" \"npm run lite\"",
+    "lite": "lite-server -c ./package.json",
+    "img": "grunt img"
+  },
+  "server": {
+    "baseDir": "./dist"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "grunt": "^1.0.2",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-pug": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-image": "^4.1.0",
+    "lite-server": "^2.3.0",
+    "load-grunt-tasks": "^3.5.2"
+  }
+}
